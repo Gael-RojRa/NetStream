@@ -16,13 +16,19 @@
 .app__container {
      background-color: #1b1b1f;
      padding: 15px;
-     margin: 8px;
+     margin: 64px 8px;
 
 }
 
 /* Header */
 
-.header {}
+.header {
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     z-index: 999;
+}
 
 .header__search-bar {
      background-color: #2c2d38;
@@ -30,7 +36,7 @@
      flex-direction: row;
      align-items: center;
      justify-content: space-between;
-     border-radius: 10px;
+     border-radius: 0 0 10px 10px;
      height: 50px;
      padding: 15px;
 }
@@ -129,7 +135,7 @@
      height: 240px;
      height: px;
      border-radius: 10px;
-     object-fit:fill;
+     object-fit: fill;
 }
 
 .category__item-rating {
@@ -148,13 +154,13 @@
 }
 
 .nav {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    background-color: #282931;
-    padding: 10px;
-    width: 100%;
-    z-index: 999;
+     position: fixed;
+     bottom: 0;
+     left: 0;
+     background-color: #282931;
+     padding: 10px;
+     width: 100%;
+     z-index: 999;
 }
 
 .nav__menu {
@@ -173,8 +179,8 @@
 }
 
 .nav__icon {
-     width: 50px;
-     height: 38px;
+     width: 46px;
+     height: 32px;
      padding: 5px 10px;
      border-radius: 10px;
 }
