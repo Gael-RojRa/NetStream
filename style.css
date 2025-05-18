@@ -78,7 +78,7 @@
 .category {
      display: flex;
      flex-direction: column;
-     margin-bottom: 2rem;
+     margin-bottom: 1.2rem;
 }
 
 .category__header {
@@ -120,8 +120,8 @@
      flex-direction: column;
      min-width: 160px;
      max-width: 160px;
-     min-height: 290px;
-     max-height: 290px;
+     min-height: 270px;
+     max-height: 270px;
      flex: 0 0 160px 240px;
 }
 
