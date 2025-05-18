@@ -131,8 +131,11 @@
 }
 
 .category__item:hover {
-     border: 3px solid #ffffff;
-     border-radius: 10px;
+     cursor: pointer;
+     border: 2px solid #ffffff;
+     border-radius: 13px;
+     transform: scale(0.98);
+     transition: transform 0.2s ease-in-out;
 }
 
 .category__image-container {
@@ -142,8 +145,8 @@
 }
 
 .category__item-image {
-     width: 160px;
-     height: 240px;
+     width: 100%;
+     height: 100%;
      border-radius: 10px;
      object-fit:fill;
 }
@@ -151,18 +154,19 @@
 
 .category__item-rating {
      position: absolute;
-     top: 10px;
-     right: 10px;
+     top: 5px;
+     right: 5px;
      padding: 3px 6px;
      border-radius: 8px;
      color: white;
      background-color: rgba(0, 0, 0, 0.632);
      z-index: 1;
+     font-size: .8rem;
 }
 
 .category__item-title {
-     margin-top: 10px;
-     font-size: 1rem;
+     margin-top: 5px;
+     font-size: .9rem;
 }
 
 .nav {
@@ -221,9 +225,4 @@
           height: 100%;
      }
 
-     .category__item-image {
-          height: 100%;
-          width: 100%;
-
-     }
 }
