@@ -1,197 +1,385 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NetStream</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NetStream</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-
-<body class="app">
-  <div class="app__container">
-    <header class="header">
-      <div class="header__search-container">
-        <div class="header__search-icon-container">
-          <img class="header__search-icon" src="./imagenes/search.svg" alt="Buscar">
-        </div>
-        <input class="header__input" type="text" placeholder="Search for something.">
-      </div>
-      <img class="header__profile" src="./imagenes/pfp.webp" alt="Perfil">
-    </header>
-    <main class="main">
-      <section class="category">
-        <div class="category__header">
-          <h2 class="category__title">Recommended movies</h2>
-          <div class="category__arrow-container">
-            <img class="category__arrow" src="./imagenes/right-arrow.svg" alt="Ver más">
+  <body class="app">
+    <div class="app__container">
+      <header class="header">
+        <div class="header__search-container">
+          <div class="header__search-icon-container">
+            <img
+              class="header__search-icon"
+              src="./imagenes/search.svg"
+              alt="Buscar"
+            />
           </div>
+          <input
+            class="header__input"
+            type="text"
+            placeholder="Search for something."
+          />
         </div>
-        <div class="category__scroll">
-          <div class="category__grid">
-            <div class="category__item">
-              <div class="category__image-container">
-                <img class="category__item-image" src="./imagenes//caratulas/Duna.jpeg" alt="Violent Night">
-                <div class="category__item-rating">7.9</div>
-              </div>
-              <h3 class="category__item-title">Duna</h3>
+        <img class="header__profile" src="./imagenes/pfp.webp" alt="Perfil" />
+      </header>
+      <main class="main">
+        <section class="category">
+          <div class="category__header">
+            <h2 class="category__title">Para ti</h2>
+            <div class="category__arrow-container">
+              <img
+                class="category__arrow"
+                src="./imagenes/right-arrow.svg"
+                alt="Ver más"
+              />
             </div>
-            <div class="category__item">
-              <div class="category__image-container">
-                <img class="category__item-image" src="./imagenes/caratulas/Corazones de Hierro.jpeg" alt="Megan">
-                <div class="category__item-rating">7.9</div>
-              </div>
-              <h3 class="category__item-title">Corazones de Hierro</h3>
-            </div>
-            <div class="category__item">
-              <div class="category__image-container">
-                <img class="category__item-image" src="./imagenes/caratulas/Mad Max.jpeg" alt="Megan">
-                <div class="category__item-rating">7.9</div>
-              </div>
-              <h3 class="category__item-title">Mad Max</h3>
-            </div>
-            <div class="category__item">
-              <div class="category__image-container">
-                <img class="category__item-image" src="./imagenes/caratulas/Soy Leyenda.jpeg" alt="Megan">
-                <div class="category__item-rating">7.9</div>
-              </div>
-              <h3 class="category__item-title">Soy Leyenda</h3>
-            </div>
-            <div class="category__item">
-              <div class="category__image-container">
-                <img class="category__item-image" src="./imagenes/caratulas/2012.jpeg" alt="Megan">
-                <div class="category__item-rating">7.9</div>
-              </div>
-              <h3 class="category__item-title">2012</h3>
-            </div>
-            <div class="category__item">
-              <div class="category__image-container">
-                <img class="category__item-image" src="./imagenes/caratulas/Bad Boys Hasta La Muerte.jpeg" alt="Megan">
-                <div class="category__item-rating">7.9</div>
-              </div>
-              <h3 class="category__item-title">Bad Boys</h3>
-            </div>
-            <div class="category__item">
-              <div class="category__image-container">
-                <img class="category__item-image" src="./imagenes/caratulas/Karate Kid.jpeg" alt="Megan">
-                <div class="category__item-rating">7.9</div>
-              </div>
-              <h3 class="category__item-title">Karate Kid</h3>
-            </div>
-            <div class="category__item">
-              <div class="category__image-container">
-                <img class="category__item-image" src="./imagenes/caratulas/Jursassic World.jpeg" alt="Megan">
-                <div class="category__item-rating">7.9</div>
-              </div>
-              <h3 class="category__item-title">Jurassic World</h3>
-            </div>
-            <!-- Más películas -->
           </div>
-        </div>
-      </section>
-
-      <section class="category">
-        <div class="category__header">
-          <h2 class="category__title">Popular TV Series</h2>
-          <div class="category__arrow-container">
-            <img class="category__arrow" src="./imagenes/right-arrow.svg" alt="Ver más">
+          <div class="category__scroll">
+            <div class="category__grid">
+              <div class="category__item">
+                <div class="category__image-container">
+                  <img
+                    class="category__item-image"
+                    src="./imagenes//caratulas/Venom.jpeg"
+                    alt="Westworld"
+                  />
+                  <div class="category__item-rating">7.9</div>
+                </div>
+                <h3 class="category__item-title">Venom</h3>
+              </div>
+              <div class="category__item">
+                <div class="category__image-container">
+                  <img
+                    class="category__item-image"
+                    src="./imagenes/caratulas/Linternta Verde.jpeg"
+                    alt="Servant"
+                  />
+                  <div class="category__item-rating">7.9</div>
+                </div>
+                <h3 class="category__item-title">Angry Birds</h3>
+              </div>
+              <div class="category__item">
+                <div class="category__image-container">
+                  <img
+                    class="category__item-image"
+                    src="./imagenes/caratulas/Angry Birds.jpeg"
+                    alt="Servant"
+                  />
+                  <div class="category__item-rating">7.9</div>
+                </div>
+                <h3 class="category__item-title">Angry Birds</h3>
+              </div>
+              <div class="category__item">
+                <div class="category__image-container">
+                  <img
+                    class="category__item-image"
+                    src="./imagenes/caratulas/Minions.jpeg"
+                    alt="Servant"
+                  />
+                  <div class="category__item-rating">7.9</div>
+                </div>
+                <h3 class="category__item-title">Minions</h3>
+              </div>
+              <div class="category__item">
+                <div class="category__image-container">
+                  <img
+                    class="category__item-image"
+                    src="./imagenes/caratulas/Un show más.jpeg"
+                    alt="Servant"
+                  />
+                  <div class="category__item-rating">7.9</div>
+                </div>
+                <h3 class="category__item-title">Un Show Más</h3>
+              </div>
+              <div class="category__item">
+                <div class="category__image-container">
+                  <img
+                    class="category__item-image"
+                    src="./imagenes/caratulas/Ben10.jpeg"
+                    alt="Servant"
+                  />
+                  <div class="category__item-rating">7.9</div>
+                </div>
+                <h3 class="category__item-title">Ben 10: Alien Ultimate</h3>
+              </div>
+              <div class="category__item">
+                <div class="category__image-container">
+                  <img
+                    class="category__item-image"
+                    src="./imagenes/caratulas/Haikyu.jpeg"
+                    alt="Servant"
+                  />
+                  <div class="category__item-rating">7.9</div>
+                </div>
+                <h3 class="category__item-title">Haikyu</h3>
+              </div>
+              <div class="category__item">
+                <div class="category__image-container">
+                  <img
+                    class="category__item-image"
+                    src="./imagenes/caratulas/Ninja.jpeg"
+                    alt="Servant"
+                  />
+                  <div class="category__item-rating">7.9</div>
+                </div>
+                <h3 class="category__item-title">Ninja</h3>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="category__scroll">
-          <div class="category__grid">
-            <div class="category__item">
-              <div class="category__image-container">
-                <img class="category__item-image" src="./imagenes/caratulas/Hora de Aventura.jpeg" alt="Westworld">
-                <div class="category__item-rating">7.9</div>
-              </div>
-              <h3 class="category__item-title">Hora de Aventura</h3>
+        </section>
+        <section class="category">
+          <div class="category__header">
+            <h2 class="category__title">Recommended movies</h2>
+            <div class="category__arrow-container">
+              <img
+                class="category__arrow"
+                src="./imagenes/right-arrow.svg"
+                alt="Ver más"
+              />
             </div>
-            <div class="category__item">
-              <div class="category__image-container">
-                <img class="category__item-image" src="./imagenes/caratulas/Rick and Morty.jpeg" alt="Servant">
-                <div class="category__item-rating">7.9</div>
-              </div>
-              <h3 class="category__item-title">Rick and Morty</h3>
-            </div>
-            <div class="category__item">
-              <div class="category__image-container">
-                <img class="category__item-image" src="./imagenes/caratulas/The Big Bang Theory.jpeg" alt="Servant">
-                <div class="category__item-rating">7.9</div>
-              </div>
-              <h3 class="category__item-title">The Big Bang Theory</h3>
-            </div>
-            <div class="category__item">
-              <div class="category__image-container">
-                <img class="category__item-image" src="./imagenes/caratulas/The Last of Us.jpeg" alt="Servant">
-                <div class="category__item-rating">7.9</div>
-              </div>
-              <h3 class="category__item-title">The Last of Us</h3>
-            </div>
-            <div class="category__item">
-              <div class="category__image-container">
-                <img class="category__item-image" src="./imagenes/caratulas/Lazarus.jpeg" alt="Servant">
-                <div class="category__item-rating">7.9</div>
-              </div>
-              <h3 class="category__item-title">Lazarus</h3>
-            </div>
-
-
-            <!-- Más series -->
           </div>
-        </div>
-      </section>
-
-      <section class="category">
-        <div class="category__header">
-          <h2 class="category__title">Popular TV Series</h2>
-          <div class="category__arrow-container">
-            <img class="category__arrow" src="./imagenes/right-arrow.svg" alt="Ver más">
-          </div>
-        </div>
-        <div class="category__scroll">
-          <div class="category__grid">
-            <div class="category__item">
-              <div class="category__image-container">
-                <img class="category__item-image" src="./imagenes/caratula.jpg" alt="Westworld">
-                <div class="category__item-rating">7.9</div>
+          <div class="category__scroll">
+            <div class="category__grid">
+              <div class="category__item">
+                <div class="category__image-container">
+                  <img
+                    class="category__item-image"
+                    src="./imagenes//caratulas/Duna.jpeg"
+                    alt="Violent Night"
+                  />
+                  <div class="category__item-rating">7.9</div>
+                </div>
+                <h3 class="category__item-title">Duna</h3>
               </div>
-              <h3 class="category__item-title">MIB</h3>
-            </div>
-            <div class="category__item">
-              <div class="category__image-container">
-                <img class="category__item-image" src="./imagenes/caratula.jpg" alt="Servant">
-                <div class="category__item-rating">7.9</div>
+              <div class="category__item">
+                <div class="category__image-container">
+                  <img
+                    class="category__item-image"
+                    src="./imagenes/caratulas/Corazones de Hierro.jpeg"
+                    alt="Megan"
+                  />
+                  <div class="category__item-rating">7.9</div>
+                </div>
+                <h3 class="category__item-title">Corazones de Hierro</h3>
               </div>
-              <h3 class="category__item-title">MIB</h3>
+              <div class="category__item">
+                <div class="category__image-container">
+                  <img
+                    class="category__item-image"
+                    src="./imagenes/caratulas/Mad Max.jpeg"
+                    alt="Megan"
+                  />
+                  <div class="category__item-rating">7.9</div>
+                </div>
+                <h3 class="category__item-title">Mad Max</h3>
+              </div>
+              <div class="category__item">
+                <div class="category__image-container">
+                  <img
+                    class="category__item-image"
+                    src="./imagenes/caratulas/Soy Leyenda.jpeg"
+                    alt="Megan"
+                  />
+                  <div class="category__item-rating">7.9</div>
+                </div>
+                <h3 class="category__item-title">Soy Leyenda</h3>
+              </div>
+              <div class="category__item">
+                <div class="category__image-container">
+                  <img
+                    class="category__item-image"
+                    src="./imagenes/caratulas/2012.jpeg"
+                    alt="Megan"
+                  />
+                  <div class="category__item-rating">7.9</div>
+                </div>
+                <h3 class="category__item-title">2012</h3>
+              </div>
+              <div class="category__item">
+                <div class="category__image-container">
+                  <img
+                    class="category__item-image"
+                    src="./imagenes/caratulas/Bad Boys Hasta La Muerte.jpeg"
+                    alt="Megan"
+                  />
+                  <div class="category__item-rating">7.9</div>
+                </div>
+                <h3 class="category__item-title">Bad Boys</h3>
+              </div>
+              <div class="category__item">
+                <div class="category__image-container">
+                  <img
+                    class="category__item-image"
+                    src="./imagenes/caratulas/Karate Kid.jpeg"
+                    alt="Megan"
+                  />
+                  <div class="category__item-rating">7.9</div>
+                </div>
+                <h3 class="category__item-title">Karate Kid</h3>
+              </div>
+              <div class="category__item">
+                <div class="category__image-container">
+                  <img
+                    class="category__item-image"
+                    src="./imagenes/caratulas/Jursassic World.jpeg"
+                    alt="Megan"
+                  />
+                  <div class="category__item-rating">7.9</div>
+                </div>
+                <h3 class="category__item-title">Jurassic World</h3>
+              </div>
             </div>
-            <!-- Más series -->
           </div>
-        </div>
-      </section>
+        </section>
 
-    </main>
-
-  </div>
-  <nav class="nav">
-    <div class="nav__menu">
-      <div class="nav__item">
-        <img class="nav__icon nav__icon-active" src="./imagenes/explore.svg" alt="Explore">
-        <span class="nav__text">Explore</span>
-      </div>
-      <div class="nav__item">
-        <img class="nav__icon" src="./imagenes/shows.svg" alt="shows">
-        <span class="nav__text">My shows</span>
-      </div>
-      <div class="nav__item">
-        <img class="nav__icon" src="./imagenes/calendar.svg" alt="Calendar">
-        <span class="nav__text">Calendar</span>
-      </div>
-      <div class="nav__item">
-        <img class="nav__icon" src="./imagenes/notification.svg" alt="Notification">
-        <span class="nav__text">Notification</span>
-      </div>
+        <section class="category">
+          <div class="category__header">
+            <h2 class="category__title">Popular TV Series</h2>
+            <div class="category__arrow-container">
+              <img
+                class="category__arrow"
+                src="./imagenes/right-arrow.svg"
+                alt="Ver más"
+              />
+            </div>
+          </div>
+          <div class="category__scroll">
+            <div class="category__grid">
+              <div class="category__item">
+                <div class="category__image-container">
+                  <img
+                    class="category__item-image"
+                    src="./imagenes/caratulas/Hora de Aventura.jpeg"
+                    alt="Westworld"
+                  />
+                  <div class="category__item-rating">7.9</div>
+                </div>
+                <h3 class="category__item-title">Hora de Aventura</h3>
+              </div>
+              <div class="category__item">
+                <div class="category__image-container">
+                  <img
+                    class="category__item-image"
+                    src="./imagenes/caratulas/Rick and Morty.jpeg"
+                    alt="Servant"
+                  />
+                  <div class="category__item-rating">7.9</div>
+                </div>
+                <h3 class="category__item-title">Rick and Morty</h3>
+              </div>
+              <div class="category__item">
+                <div class="category__image-container">
+                  <img
+                    class="category__item-image"
+                    src="./imagenes/caratulas/Rap.jpeg"
+                    alt="Servant"
+                  />
+                  <div class="category__item-rating">7.9</div>
+                </div>
+                <h3 class="category__item-title">El Principe del Rap</h3>
+              </div>
+              <div class="category__item">
+                <div class="category__image-container">
+                  <img
+                    class="category__item-image"
+                    src="./imagenes/caratulas/The Big Bang Theory.jpeg"
+                    alt="Servant"
+                  />
+                  <div class="category__item-rating">7.9</div>
+                </div>
+                <h3 class="category__item-title">The Big Bang Theory</h3>
+              </div>
+              <div class="category__item">
+                <div class="category__image-container">
+                  <img
+                    class="category__item-image"
+                    src="./imagenes/caratulas/The Last of Us.jpeg"
+                    alt="Servant"
+                  />
+                  <div class="category__item-rating">7.9</div>
+                </div>
+                <h3 class="category__item-title">The Last of Us</h3>
+              </div>
+              <div class="category__item">
+                <div class="category__image-container">
+                  <img
+                    class="category__item-image"
+                    src="./imagenes/caratulas/Lazarus.jpeg"
+                    alt="Servant"
+                  />
+                  <div class="category__item-rating">7.9</div>
+                </div>
+                <h3 class="category__item-title">Lazarus</h3>
+              </div>
+              <div class="category__item">
+                <div class="category__image-container">
+                  <img
+                    class="category__item-image"
+                    src="./imagenes/caratulas/PicaPiedra.jpeg"
+                    alt="Servant"
+                  />
+                  <div class="category__item-rating">7.9</div>
+                </div>
+                <h3 class="category__item-title">Los Picapiedra</h3>
+              </div>
+              <div class="category__item">
+                <div class="category__image-container">
+                  <img
+                    class="category__item-image"
+                    src="./imagenes/caratulas/Gumball.jpeg"
+                    alt="Servant"
+                  />
+                  <div class="category__item-rating">7.9</div>
+                </div>
+                <h3 class="category__item-title">Gumball</h3>
+              </div>
+              <div class="category__item">
+                <div class="category__image-container">
+                  <img
+                    class="category__item-image"
+                    src="./imagenes/caratulas/Chernobyl.jpeg"
+                    alt="Servant"
+                  />
+                  <div class="category__item-rating">7.9</div>
+                </div>
+                <h3 class="category__item-title">Chernobil</h3>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
     </div>
-  </nav>
-</body>
-
+    <nav class="nav">
+      <div class="nav__menu">
+        <div class="nav__item">
+          <img
+            class="nav__icon nav__icon-active"
+            src="./imagenes/explore.svg"
+            alt="Explore"
+          />
+          <span class="nav__text">Explore</span>
+        </div>
+        <div class="nav__item">
+          <img class="nav__icon" src="./imagenes/shows.svg" alt="shows" />
+          <span class="nav__text">My shows</span>
+        </div>
+        <div class="nav__item">
+          <img class="nav__icon" src="./imagenes/calendar.svg" alt="Calendar" />
+          <span class="nav__text">Calendar</span>
+        </div>
+        <div class="nav__item">
+          <img
+            class="nav__icon"
+            src="./imagenes/notification.svg"
+            alt="Notification"
+          />
+          <span class="nav__text">Notification</span>
+        </div>
+      </div>
+    </nav>
+  </body>
 </html>
